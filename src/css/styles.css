@@ -1,0 +1,42 @@
+body {
+  background-color: #f9f9f9;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.editor {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 32px);
+  width: calc(100vw - 32px);
+  margin: 16px;
+  background-color: #fff;
+  border: 1px solid #eee;
+}
+
+.editor .editor-header {
+  height: 60px;
+  width: 100%;
+  padding: 16px;
+  background-color: #e2e2e2;
+}
+
+.editor .editor-header .icon {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  padding: 8px;
+  background: transparent;
+  border: 0;
+  outline: none;
+}
+
+.editor .editor-body {
+  min-height: 100%;
+  width: 100%;
+  padding: 16px;
+  outline: none;
+}
